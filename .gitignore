@@ -3,6 +3,7 @@
 
 # Python specific
 venv/
+__pycache__/
 
 # development database
 *.db
