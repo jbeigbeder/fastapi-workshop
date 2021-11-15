@@ -1,0 +1,8 @@
+# IDEs
+.idea/
+
+# Python specific
+venv/
+
+# development database
+*.db
