@@ -2,7 +2,7 @@
 .idea/
 
 # Python specific
-venv/
+.venv/
 __pycache__/
 
 # development database
