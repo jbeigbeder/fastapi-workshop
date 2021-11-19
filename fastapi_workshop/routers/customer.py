@@ -18,6 +18,5 @@ def create(customer: schema.CustomerCreate, db=Depends(get_db)):
     :param db: database session (injected)
     :return: the new customer with is id
     """
-
     customer_db = model.Customer(**customer.dict(), is_active=True)
     return repository.create(db=db, customer=customer_db)
