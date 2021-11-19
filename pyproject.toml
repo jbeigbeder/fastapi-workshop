@@ -11,6 +11,7 @@ SQLAlchemy = "^1.4.27"
 uvicorn = "^0.15.0"
 yapf = "^0.31.0"
 toml = "^0.10.2"
+pylint = "^2.11.1"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"

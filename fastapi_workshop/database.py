@@ -15,6 +15,7 @@ Base = declarative_base()
 
 
 def get_db():
+    """get a database session that will be close at the end"""
     db = SessionLocal()
 
     with db:

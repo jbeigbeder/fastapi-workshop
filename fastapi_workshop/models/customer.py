@@ -1,3 +1,5 @@
+"""database models: customer and order"""
+
 from sqlalchemy import Column, Integer, String, Boolean, Date, ForeignKey
 from sqlalchemy.orm import relationship
 
@@ -5,6 +7,7 @@ from ..database import Base
 
 
 class Order(Base):
+    """Order model"""
     __tablename__ = 'order'
     id = Column(Integer, primary_key=True, index=True)
     date = Column(Date, nullable=False)
@@ -13,6 +16,7 @@ class Order(Base):
 
 
 class Customer(Base):
+    """Customer model"""
     __tablename__ = 'customer'
     id = Column(name="id", type_=Integer, primary_key=True, index=True)
     name = Column(name="name", type_=String(50), nullable=False)

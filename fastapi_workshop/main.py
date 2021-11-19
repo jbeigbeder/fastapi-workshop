@@ -1,3 +1,5 @@
+"""start a new FastAPI app, create database objects and register FastAPI router"""
+
 from fastapi import FastAPI
 from .routers import hello, customer
 from .database import engine
