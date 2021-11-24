@@ -1,4 +1,4 @@
-"""start a new FastAPI app, create database objects and register FastAPI router"""
+"""start a new FastAPI app, create database objects and register FastAPI routers"""
 
 from fastapi import FastAPI
 
